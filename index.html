@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <div class="section1">
+        <h1>At your fingertip !</h1>
+        <h2>Responses to this email will be sent to riyankoneplus@gmail.com</h2>
+    </div>
+
+    <div class="section2">
+        <form action="/" method="POST" autocomplete="off">
+            <div>
+                <h2>Subject</h2>
+                <input type="text" value="" name="subject" class="subject" required>
+            </div>
+            <div>
+                <h2>Do you need a help today?</h2>
+                <input  type="text" value="" name="help" class ="help" required>
+            </div>
+            <div>
+                <h2>Attachments</h2>
+                <input type="file" id="myfile" name="myfile" multiple>
+                <label>*.Images should be in JPG or PNG format</label>
+            </div>
+            <div class="float-container">
+                <div class="float-child">
+                   <h2>Contact Number</h2>
+                   <input type="tel" id="phone" placeholder="940XXXX563" pattern="[789][0-9]{9}" name="phone" required>
+                </div>
+                <div class="float-child">
+                    <h2>How critical is your request?</h2>
+                    <select name="critical" id="critical">
+                        <option value="low" selected>Low </option>
+                        <option value="high">High</option>
+                    </select>
+                </div>                
+            </div>
+            <div class="send-cancel">
+                <input type="submit" value="Send">
+                <input type="reset" value="Cancel">
+            </div>
+        </form>
+    </div>
+
+    <div class="section3">
+
+        <h3>AlVision Helpline: +91-9924300511</h3>
+        <h3>Mon-Fri 10:00AM-7:00PM</h3>
+
+    </div>
+</body>
+</html>
